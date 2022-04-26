@@ -1,0 +1,24 @@
+.todoItem {
+  width: 100%;
+  background-color: black;
+  color: rgb(249, 242, 242);
+  opacity: 0.6;
+  padding: 5px;
+  border-bottom: 1px solid silver;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.todoItem .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todoItem .checked {
+  text-decoration: line-through;
+}
+
+.todoItem .unchecked {
+  text-decoration: none;
+}

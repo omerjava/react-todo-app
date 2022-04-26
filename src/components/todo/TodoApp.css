@@ -1,0 +1,76 @@
+.todoApp {
+  border: 2px solid gray;
+  padding: 20px;
+}
+
+.todoApp input {
+  width: 80%;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.todoApp .btn {
+  margin-top: 10px;
+  width: 40%;
+  border-radius: 5px;
+  height: 35px;
+  background-color: rgb(217, 10, 10);
+  color: white;
+  font-size: medium;
+}
+
+.todoApp .btn:hover {
+  background-color: rgb(161, 5, 5);
+}
+
+.todoApp .error {
+  display: block;
+  width: 100%;
+  background-color: black;
+  color: rgb(231, 8, 8);
+  opacity: 0.8;
+  padding: 5px;
+  border-bottom: 1px solid silver;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.todoApp .no-error {
+  display: none;
+}
+
+.todoApp .list {
+  margin-top: 20px;
+}
+
+.todoApp .edit {
+  display: block;
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+}
+
+.todoApp .no-edit {
+  display: none;
+}
+
+.todoApp .edit input {
+  width: 80%;
+  border-radius: 5px;
+  height: 30px;
+  background-color: rgb(30, 28, 28);
+  color: azure;
+}
+.todoApp .edit .btn2 {
+    width: 20%;
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgb(217, 10, 10);
+    border: 2px rgb(19, 18, 18) solid;
+    color: rgb(217, 212, 212);
+  }
+
+  .todoApp .edit .btn2:hover {
+      background-color: rgb(48, 49, 49);
+      color: aliceblue;
+  }
